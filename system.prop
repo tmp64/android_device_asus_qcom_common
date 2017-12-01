@@ -106,7 +106,7 @@ persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 
 # Shutdown timeout
-ro.build.shutdown_timeout=7
+ro.build.shutdown_timeout=0
 
 # Time
 persist.timed.enable=true
