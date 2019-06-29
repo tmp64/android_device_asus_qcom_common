@@ -170,21 +170,21 @@ PRODUCT_PACKAGES += \
     fs_config_files
 
 # GNSS HAL
-PRODUCT_PACKAGES += \
-    android.hardware.gnss@1.0-impl \
-    android.hardware.gnss@1.0-service
+#PRODUCT_PACKAGES += \
+#    android.hardware.gnss@1.0-impl \
+#    android.hardware.gnss@1.0-service
 
 # GPS
-PRODUCT_PACKAGES += \
-    gps.msm8916 \
-    libshims_flp \
-    libshims_get_process_name
+#PRODUCT_PACKAGES += \
+#    gps.msm8916 \
+#    libshims_flp \
+#    libshims_get_process_name
 
-PRODUCT_PACKAGES += \
-    flp.conf \
-    gps.conf \
-    izat.conf \
-    sap.conf
+#PRODUCT_PACKAGES += \
+#    flp.conf \
+#    gps.conf \
+#    izat.conf \
+#    sap.conf
 
 # HIDL
 PRODUCT_COPY_FILES += \
